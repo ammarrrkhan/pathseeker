@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f8f9fa" rx="10" ry="10" />
+  
+  <!-- Career Guidance Illustration -->
+  <g transform="translate(50, 50)">
+    <!-- Compass -->
+    <circle cx="200" cy="150" r="120" fill="#e8f4fc" />
+    <circle cx="200" cy="150" r="100" fill="#ffffff" stroke="#3498db" stroke-width="3" />
+    
+    <!-- Compass Directions -->
+    <text x="200" y="70" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">N</text>
+    <text x="200" y="240" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">S</text>
+    <text x="280" y="155" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">E</text>
+    <text x="120" y="155" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">W</text>
+    
+    <!-- Compass Needle -->
+    <g transform="rotate(45, 200, 150)">
+      <path d="M200,90 L210,150 L200,210 L190,150 Z" fill="#e74c3c" />
+      <path d="M200,90 L190,150 L200,210 L210,150 Z" fill="#3498db" />
+      <circle cx="200" cy="150" r="10" fill="#ffffff" stroke="#2c3e50" stroke-width="2" />
+    </g>
+    
+    <!-- Career Paths -->
+    <path d="M320,150 C350,120 380,180 400,150" stroke="#27ae60" stroke-width="3" fill="none" stroke-linecap="round" />
+    <path d="M320,180 C350,210 380,150 400,180" stroke="#f39c12" stroke-width="3" fill="none" stroke-linecap="round" />
+    <path d="M320,120 C350,90 380,150 400,120" stroke="#9b59b6" stroke-width="3" fill="none" stroke-linecap="round" />
+    
+    <!-- Career Icons -->
+    <g transform="translate(0, 120)">
+      <rect width="80" height="30" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="2" />
+      <text x="40" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#3498db">TECHNOLOGY</text>
+    </g>
+    
+    <g transform="translate(0, 160)">
+      <rect width="80" height="30" rx="5" fill="#ffffff" stroke="#e74c3c" stroke-width="2" />
+      <text x="40" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#e74c3c">HEALTHCARE</text>
+    </g>
+    
+    <g transform="translate(0, 200)">
+      <rect width="80" height="30" rx="5" fill="#ffffff" stroke="#27ae60" stroke-width="2" />
+      <text x="40" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#27ae60">FINANCE</text>
+    </g>
+    
+    <g transform="translate(0, 80)">
+      <rect width="80" height="30" rx="5" fill="#ffffff" stroke="#f39c12" stroke-width="2" />
+      <text x="40" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#f39c12">EDUCATION</text>
+    </g>
+  </g>
+</svg>
